@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+    <h2>Welcome to the web site: this is a heading inside of the heading tags.</h2>
+
+    <p>This is a paragraph of text inside the paragraph HTML tags. We can just keep writting ...
+    </p>
+
+    <h3>Now we have an image:</h3>
+
+    <div><img src="images/plantTracing.gif" class="image" alt="Graphic of a Mouse Pad"></div>
+
+    <h3>
+        This is another heading inside of another set of headings tags; this time the tag is an 'h3' instead of an 'h2'
+        , that means it is a less important heading.
+    </h3>
+
+    <h4>Yet another heading - right after this we have an HTML list:</h4>
+
+    <ol>
+        <li>First item in the list</li>
+        <li>Second item in the list</li>
+        <li>Third item in the list</li>
+    </ol>
+
+    <p>You will notice in the above HTML list, the HTML automatically creates the numbers in the list.</p>
+
+    <h3>About the list tags</h3>
+
+    <p>
+        HTML list tags are a little more complex than the other tags we have seen thus far. </p>
+
+    <p>
+        HTML list come in two flavors: ordered and unordered. Ordered list tags (
+    <ol>) automatically inserts the right numbers for each of the list items (
+        <li>), where as the unordered list tag (
+            <ul>) inserts bullets.
+    </p>
+
+    <ul>
+        <li>First item in the list</li>
+        <li>Second item in the list</li>
+        <li>Third item in the list</li>
+    </ul>
+
+
+    <h3>Now the most important HTML tag there is: the link tag!</h3>
+    <p>
+        This another web site worth visiting: <a href="http://www.test.com">test
+            tutorials and forums</a>
+    </p>
+{% endblock %}
